@@ -20,6 +20,7 @@ This command installs all the necessary Python packages as specified in requirem
 Open the provided Jupyter notebook and run the cells sequentially. The notebook will guide you through:
 
 **Offline Design:** Preparation steps and design considerations for $\Pi$-MPC.
+
 **Online Operation and Simulation:** Real-time control and simulation of the pendulum trajectory, demonstrating the application of $\Pi$-MPC in handling parameter errors with a linear nominal model.
 
 ## Support
