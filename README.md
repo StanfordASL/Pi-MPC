@@ -19,9 +19,8 @@ This command installs all the necessary Python packages as specified in requirem
 ## Running the Example
 Open the provided Jupyter notebook and run the cells sequentially. The notebook will guide you through:
 
-**Offline Design:** Preparation steps and design considerations for $\Pi$-MPC.
-
-**Online Operation and Simulation:** Simulation with the pendulum tracking a periodic trajectory, demonstrating the ability of $\Pi$-MPC to achieve minimal tracking errors despite model mismatch.
+- **Offline Design:** Preparation steps and design considerations for $\Pi$-MPC.
+- **Online Operation and Simulation:** Simulation with the pendulum tracking a periodic trajectory, demonstrating the ability of $\Pi$-MPC to achieve minimal tracking errors despite model mismatch.
 
 ## Support
 For questions or support, please file an issue on the GitHub repository page. Contributions and feedback are welcome.
