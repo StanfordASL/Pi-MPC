@@ -21,7 +21,7 @@ Open the provided Jupyter notebook and run the cells sequentially. The notebook 
 
 **Offline Design:** Preparation steps and design considerations for $\Pi$-MPC.
 
-**Online Operation and Simulation:** Real-time control and simulation of the pendulum trajectory, demonstrating the application of $\Pi$-MPC in handling parameter errors with a linear nominal model.
+**Online Operation and Simulation:** Simulation with the pendulum tracking a periodic trajectory, demonstrating the ability of $\Pi$-MPC to achieve minimal tracking errors despite model mismatch.
 
 ## Support
 For questions or support, please file an issue on the GitHub repository page. Contributions and feedback are welcome.
