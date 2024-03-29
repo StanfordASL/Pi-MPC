@@ -208,10 +208,8 @@ def MPC(simulator, dims_dic, MPC_dic, dyn_dic):
             for i in range(Nhor):
                 x_planned[k+i, :] = cvx_x.value[(i)*nx:(i+1)*nx]
         u[k,:] = cvx_u.value[:nu]
-        if u[k,:] > u_max+1:
-            print("***Warning: Input saturation! k = ", k)
-            break
-        # Simulate with nonilnear model.
+
+        # Simulate with nonlinear model.
         try:
             x[k+1,:] = simulator.sim(x[k,:], u[k,:])
         except:
