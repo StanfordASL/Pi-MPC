@@ -13,7 +13,7 @@ Ensure Python 3 is installed on your system. The project dependencies are listed
 2. **Create a virtual environment** (recommended) for the project to manage dependencies.
 3. **Install dependencies** by navigating to the repository's root directory and executing:
 ```
-pip install -e .
+pip install -r requirements.txt
 ```
 This command installs all the necessary Python packages as specified in requirements.txt.
 
