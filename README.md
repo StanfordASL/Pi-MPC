@@ -1,7 +1,7 @@
 ![](/images/banner.png)
 # Model Predictive Control with a Periodic Observer ($\Pi$-MPC)
 
-This repository contains example code for [Perfecting Periodic Trajectory Tracking: Model Predictive Control with a Periodic Observer]() by _Luis Pabon, Johannes Köhler, John Irvin Alora, Patrick Benito Eberhard, Andrea Carron, Melanie N. Zeilinger,_ and _Marco Pavone._
+This repository contains example code for [Perfecting Periodic Trajectory Tracking: Model Predictive Control with a Periodic Observer](https://arxiv.org/abs/2404.01550) by _Luis Pabon, Johannes Köhler, John Irvin Alora, Patrick Benito Eberhard, Andrea Carron, Melanie N. Zeilinger,_ and _Marco Pavone._
 
 The repository is designed to facilitate understanding and implementation of $\Pi$-MPC using a straightforward example. We showcase the application of $\Pi$-MPC by tracking a periodic trajectory around a pendulum's unstable equilibrium. The nominal model is a linearized model that additionally has incorrect parameters (i.e. mass, length).
 
